@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://cdn.pixabay.com/photo/2017/03/31/15/34/cactus-2191647_960_720.jpg');
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgba(0, 128, 0, 0.8);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-icon {
+  font-size: 24px;
+}
+
+.product-list {
+  padding: 20px;
+}
+
+.product-category {
+  margin-bottom: 40px;
+}
+
+.product {
+  display: inline-block;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+.cart {
+  padding: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cart-item img {
+  width: 80px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.cart-summary {
+  margin-top: 20px;
+}
